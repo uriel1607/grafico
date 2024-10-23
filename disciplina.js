@@ -1,6 +1,6 @@
 
 async function quantidadeVoto() {
-    const url = 'https://raw.githubusercontent.com/Akiovictor/trabalho_json_grafico/refs/heads/main/disciplina.json'
+    const url = 'https://raw.githubusercontent.com/uriel1607/grafico/refs/heads/main/disciplina.json'
     const res = await fetch(url)
     const dados = await res.json()
     const disciplina = Object.keys(dados)
